@@ -1,0 +1,30 @@
+[33mcommit f780309e326ce9d26c396d75464913a6e5bd4e36[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: ba62dbb 7cc8ea5
+Author: Volodymyr Pomirko <volodymyr.pomirko@gmail.com>
+Date:   Wed Oct 30 20:55:36 2024 +0200
+
+    Merge branch 'base-branch'
+
+[33mcommit 7cc8ea5ce7815cab60a9484af26a3e5de477defe[m[33m ([m[1;31morigin/base-branch[m[33m, [m[1;32mbase-branch[m[33m)[m
+Author: Volodymyr Pomirko <volodymyr.pomirko@gmail.com>
+Date:   Wed Oct 30 20:44:13 2024 +0200
+
+    Initial commit for shared history
+
+[33mcommit ba62dbb76451bafbfb1b4d0712bdc39be51da66b[m
+Author: Volodymyr Pomirko <volodymyr.pomirko@gmail.com>
+Date:   Wed Oct 30 17:50:19 2024 +0200
+
+    added lab4 with Butterfly class
+
+[33mcommit dc7474148a2b71edd24eb7fdb9c2fdfdeac67dd2[m
+Author: Dotts-01 <volodymyr.pomirko@gmail.com>
+Date:   Wed Oct 30 17:16:20 2024 +0200
+
+    add-some-text
+
+[33mcommit 9e7af71a49fb888fba2b7e9284ee0e6fcd8a129e[m
+Author: Dotts-01 <volodymyr.pomirko@gmail.com>
+Date:   Wed Oct 30 17:13:09 2024 +0200
+
+    Initial commit
