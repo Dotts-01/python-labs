@@ -21,9 +21,6 @@ class Clip:
             return self.__views
 
 
-    def __str__(self):
-            return f"{self.__artist}, {self.__song}, {self.__duration}, {self.__views}, {self.genre}, {self.awards}"
-
     def __repr__(self):
         return (
             f"Clip:\n"
@@ -35,6 +32,11 @@ class Clip:
             f"  Awards: {self.awards}"
 
         )
+
+
+    def __str__(self):
+            return f"{self.__artist}, {self.__song}, {self.__duration}, {self.__views}, {self.genre}, {self.awards}"
+
 
     def __del__(self):
         print(f"clip '{self.__song}' was deleted.")
@@ -53,6 +55,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
