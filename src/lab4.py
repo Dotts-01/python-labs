@@ -21,20 +21,21 @@ class Clip:
             return self.__views
 
 
+    def __repr__(self):
+        return (
+            f"Clip(\n"
+            f"  artist='{self.__artist}',\n"
+            f"  song='{self.__song}',\n"
+            f"  duration={self.__duration},\n"
+            f"  views={self.__views},\n"
+            f"  genre='{self.genre}',\n"
+            f"  awards={self.awards}\n"
+            f")"
+        )
+
     def __str__(self):
             return f"{self.__artist}, {self.__song}, {self.__duration}, {self.__views}, {self.genre}, {self.awards}"
 
-    def __repr__(self):
-        return (
-            f"Clip:\n"
-            f"  Artist: {self.__artist}\n"
-            f"  Song: {self.__song}\n"
-            f"  Duration: {self.__duration} seconds\n"
-            f"  Views: {self.__views}\n"
-            f"  Genre: {self.genre}\n"
-            f"  Awards: {self.awards}"
-
-        )
 
     def __del__(self):
         print(f"clip '{self.__song}' was deleted.")
@@ -53,6 +54,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
